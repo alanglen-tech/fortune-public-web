@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: fortune-group-technologies-public
+    runtime: static
+    repo: https://github.com/alanglen-tech/fortune-public-web
+    branch: main
+    buildCommand: echo "Standalone static site; no build required"
+    staticPublishPath: ./public
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
