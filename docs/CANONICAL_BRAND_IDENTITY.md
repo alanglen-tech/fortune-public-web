@@ -33,7 +33,7 @@ Always distinguish concept, prototype, built/tested simulation, deployed service
 
 ## Surface-specific deployment
 
-- **Website:** main static HTML/CSS, same company name/footer/contacts, accurate concept status. Public-site deployment status confirmed in Render on 2026-11-05 for commit `6c12d254671b408a6deb1bb907f5831d9c0a29b1`. Subsequent changes require a separate Render deployment and fresh verification.
+- **Website:** main static HTML/CSS retains the approved company identity, projects, legal particulars and contact information. Render reported deploy `dep-dbm6uqd6e07s73bbci1g` live on 2026-11-05 at Git commit `fb9c465cfe0d04e837266fc0c9d48b6581bfc5e1`, after static website checks. Render status does not prove outside-browser HTTP/mobile acceptance. Public site auto-deploy is disabled; future website edits require an explicit deploy.
 - **Email:** standard compact HTML signature by default; premium neon illustration only on selected proposals. Include company number, Scottish registration and registered office in legible text. Use website-hosted corporate logo with absolute URL when available, plus text-only fallback. Connected Gmail draft does **not** install a Gmail account-wide signature.
 - **LinkedIn:** keep About/Experience/Projects aligned to this register. Replace all historic Floot links with independent site URL only after confirming intended site. Profile updates and image publication are not established just because copy exists.
 - **Master pack:** privately stored on connected Drive as `Fortune_Group_Unified_Identity_2026-11-05_v3.zip`, retaining owner-supplied originals and supporting files. This public document is the textual identity registry; the private pack remains the asset evidence store.
