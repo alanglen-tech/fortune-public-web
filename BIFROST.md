@@ -1,4 +1,4 @@
-# BIFROST — Repository participation contract (candidate, 2026-11-06)
+# BIFROST — Repository governance instructions (2026-11-06)
 
 **Application:** `fortune-public-web`
 **Canonical control point:** `C:\Users\alanj\JARVIS_LAB\00_CONTROL\bifrost_gateway.py` on the authorised Mission Control PC.
@@ -10,4 +10,4 @@ Before any gate advances, use the local BIFROST gateway to register the mission 
 
 **Safety:** preserve source, rollback, permissions, secrets and live integrations. Do not confuse local synthetic protocol tests with functional product tests, staging with production, or documentation with working runtime enforcement. No charges or external publication without specific authorization. Application-specific acceptance and CI still apply.
 
-**Activation truth:** this repository file is a handoff instruction on a review branch. It is not, by itself, a deployed connection to Mission Control, a required GitHub check, or a live autonomous scheduler. Merge after review, connect actual build/release entry points, and verify per-application execution before declaring BIFROST universally active.
+**Activation truth (2026-11-06):** These governance instructions are now on the default branch. They do not, by themselves, connect the application's runtime to Mission Control, enforce mandatory GitHub checks, or deploy an autonomous scheduler. The local BIFROST gateway is active on Mission Control; per-application build/release hooks and real-product acceptance still require verification before universal compliance can be claimed.
